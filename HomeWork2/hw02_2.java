@@ -27,7 +27,7 @@ public class hw02_2 {
 
     public static int[] babblSort(int arr[]) throws IOException {
         Logger loger = Logger.getLogger(hw02_2.class.getName());
-        FileHandler fHandler = new FileHandler("logger.txt");
+        FileHandler fHandler = new FileHandler("HomeWork2\\logger.txt");
         SimpleFormatter sFormatter = new SimpleFormatter();
         fHandler.setFormatter(sFormatter);
         loger.addHandler(fHandler);
